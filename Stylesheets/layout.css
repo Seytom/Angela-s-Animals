@@ -1,0 +1,26 @@
+
+#container{
+	font: 14px/1.4 'Open Sans', sans-serif; 
+	background-color: #FFF;
+	width: 1000px;
+	margin-left: auto; /* These two lines auto-center the page */
+	margin-right: auto;
+}
+
+#header {  
+	 
+	padding: 20px; 
+	height:127px;
+	width: 1000px;
+}
+
+#logo {
+	position: relative;
+	left: 15px;
+} 
+
+
+#footer { background-color: #006; color: #FFF; padding: 20px;} 
+
+ 
+

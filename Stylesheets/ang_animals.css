@@ -1,0 +1,164 @@
+td.menuNormal {
+	padding: 1px;
+	padding-left: 2px;
+	color: white;
+	font-weight: bold;
+	vertical-align: top;
+	background-color: #0000FF;
+}
+
+td.menuHover {
+	padding: 1px;
+	color: blue;
+	font-weight: bold;
+	vertical-align: top;
+	background-color: lightBlue;
+}
+
+div.menuNormal {
+	display: none;
+	position: static;
+}
+
+div.menuHover {
+	border: 2.5px solid white;
+	background-color: gray;
+	color:red;
+	display: inline;
+	position: absolute;	
+}
+
+
+body { 
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding: 0px;
+} 
+
+p {
+	padding-top: 10px;
+	margin: 0px;
+}
+
+table.navbar {
+	font-size: 8pt;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-weight: bold;
+}
+
+table.menu {
+	font-size: 8pt;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+a.menuitem:link
+{
+	text-decoration: none;
+	color: white;
+	padding: 2.5px;
+	background-color: #0000ff;
+	border-bottom: 2.5px solid white;
+	display: block;
+}
+
+a.menuitem:visited
+{
+	text-decoration: none;
+	color: lightblue;
+	padding: 2.5px;
+	background-color: #0000ff;
+	border-bottom: 2.5px solid white;
+	display: block;
+}
+
+a.menuitem:hover
+{
+	text-decoration: none;
+	color: black;
+	padding: 2.5px;
+	background-color: lightblue;
+	border-bottom: 2.5px solid white;
+	display: block;
+}
+
+a.menuitem:active
+{
+	text-decoration: none;
+	color: black;
+	padding: 2.5px;
+	background-color: lightblue;
+	border-bottom: 2.5px solid white;
+	display: block;
+}
+
+
+#chipmunk2 { 
+	border-width: 2px; 
+	border-style: dotted;
+	border-color: #4682B4;
+	background-color: #E0FFFF; 
+	width: 200px; 
+	text-align: center; 
+	float: right; /* You could just as easily float to the left */ 	
+	padding-bottom: 5px; 
+	margin-top: 20px; /* Without this, your sidebar would be touching the header */
+	 }  
+
+#chipmunk3 { 
+	border-width: 2px; 
+	border-style: dotted;
+	border-color: #4682B4;
+	background-color: #E0FFFF; 
+	width: 200px; 
+	text-align: center; 
+	float: left;   	
+	 
+	margin-top: 20px; 
+	margin-bottom: 10px;
+	padding-bottom: 5px; 
+	 } 
+
+#master{
+	width:1000px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: lime;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+
+#header { background-color: aqua; color: black; padding: 20px; } 
+
+#footer { background-color: aqua; color: black; padding: 20px;} 
+
+#footer a {
+	color:blue;
+}
+
+#content { background-color: #FAF0E6; 
+	
+	margin-right: 219px;
+	margin-left: 219px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 5px 15px 15px 15px;
+	 
+	/* This is the reason the main content is separated from the sidebar */ 
+	text-align: justify;
+	text-justify: inter-word;
+} 
+
+#span {
+	font-style: italic;
+	font-weight: bolder;
+	
+}
+
